@@ -1,0 +1,42 @@
+.add-form {
+  width: 500px;
+}
+
+.drop-x {
+  margin: 0;
+}
+
+.btn-add {
+  width: 73px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #266aeb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bolder
+{
+  font-weight: bold;
+}
+
+.counter
+{
+  width: 100px !important;
+}
+
+@media(max-width:900px)
+{
+  .add-form
+  {
+    width: 300px;
+  }
+}
+
+
+

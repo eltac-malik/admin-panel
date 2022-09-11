@@ -1,5 +1,35 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
   text-align: center;
+}
+
+.home
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.link
+{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.link:hover
+{
+  color: black;
 }
 
 .App-logo {
